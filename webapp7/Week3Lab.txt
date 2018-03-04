@@ -1,0 +1,28 @@
+What dynamically generates the copyright year?
+  -The C# class method for DateTime.Now.Year enclosed in a Razor syntax
+Where does the year get generated, browser or web serer?
+  -Web server
+
+What are the items that start with @Html called?
+  -Razor syntax
+
+How does the view know what model it is supposed to use for rendering input fields for model properties?
+  -The Razor code allow the view to know the model it's supposed to use.
+
+Back to List link. What happens? Why?
+  -A server error occured. The view index or its master was not found. Because the index was not updated with the new information.
+
+Where is the "Users" data defined in the view?
+  -Users data are located in the Data > Entities, and its controller UserController, is located in the Controllers folder
+
+Run the application and try adding a User with only the "Years in School" entered.
+What is displayed when the application returns you to the list of Users?
+  
+  -All fields are required.
+
+Add attributes to the User model to force all of the input fields to be required except middle name.
+Try adding a "User" with one or more of the required fields missing.  What happens?
+
+  -All fields (except Middle Initial) are required.
+
+
